@@ -1,0 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.hero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.gallery-item {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
+}
